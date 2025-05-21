@@ -23,30 +23,6 @@ This system is designed for educational institutions, offices, and organizations
 
 ---
 
-## 📁 Project Structure
-
-Face recognition/
-│
-├── app.py                               # Main Python script to start the app
-├── haarcascade\_frontalface\_default.xml # XML file for face detection
-├── background.png                       # Background image for UI (optional)
-│
-├── Attendance/                          # Contains CSV logs of attendance
-│   ├── Attendance-04\_06\_24.csv
-│   └── ...
-│
-├── static/
-│   ├── face\_recognition\_model.pkl       # Trained face recognition model
-│   └── faces/                           # Folder containing subfolders of user face images
-│       ├── amri\_8/
-│       │   ├── amri\_0.jpg
-│       │   ├── ...
-│
-└── README.md                            # This file
-
-
----
-
 ## 🛠️ Requirements
 
 Install the dependencies using `pip`:
